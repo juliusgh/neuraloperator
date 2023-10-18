@@ -46,7 +46,7 @@ def skip_connection(
     else:
         raise ValueError(
             f"Got skip-connection type={skip_type}, expected one of"
-            f" {'soft-gating', 'linear', 'id'}."
+            f" {'soft-gating', 'linear', 'identity'}."
         )
 
 
